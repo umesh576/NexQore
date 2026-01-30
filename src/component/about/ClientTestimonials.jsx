@@ -146,7 +146,7 @@ const ClientTestimonials = () => {
 
         {/* Testimonial Carousel */}
         <div className="max-w-4xl mx-auto">
-          <div className="relative bg-gradient-to-br from-blue-50 to-gray-50 rounded-3xl p-8 md:p-12">
+          <div className="relative bg-linear-to-br from-blue-50 to-gray-50 rounded-3xl p-8 md:p-12">
             <FaQuoteLeft className="text-blue-200 text-4xl mb-6" />
 
             <div className="mb-8">
@@ -163,7 +163,7 @@ const ClientTestimonials = () => {
             </div>
 
             <div className="flex items-center">
-              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-xl font-bold mr-4">
+              <div className="w-16 h-16 rounded-full bg-linear-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-xl font-bold mr-4">
                 {filteredTestimonials[currentIndex]?.name.charAt(0)}
               </div>
               <div>

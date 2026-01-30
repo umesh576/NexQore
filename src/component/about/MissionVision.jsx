@@ -16,7 +16,7 @@ const MissionVision = () => {
 
         <div className="grid md:grid-cols-2 gap-12 mb-16">
           {/* Mission */}
-          <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-3xl p-8">
+          <div className="bg-linear-to-br from-blue-50 to-blue-100 rounded-3xl p-8">
             <div className="flex items-center mb-6">
               <div className="p-3 bg-blue-600 text-white rounded-xl mr-4">
                 <FaBullseye size={24} />
@@ -51,7 +51,7 @@ const MissionVision = () => {
           </div>
 
           {/* Vision */}
-          <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-3xl p-8">
+          <div className="bg-linear-to-br from-gray-50 to-gray-100 rounded-3xl p-8">
             <div className="flex items-center mb-6">
               <div className="p-3 bg-purple-600 text-white rounded-xl mr-4">
                 <FaEye size={24} />

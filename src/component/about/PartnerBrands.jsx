@@ -59,7 +59,7 @@ const PartnerBrands = () => {
               className="bg-white rounded-2xl p-6 flex items-center justify-center hover:shadow-lg transition-shadow duration-300"
             >
               <div className="text-center">
-                <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-100 to-gray-100 rounded-lg flex items-center justify-center text-blue-600 font-bold text-xl">
+                <div className="w-16 h-16 mx-auto mb-4 bg-linear-to-br from-blue-100 to-gray-100 rounded-lg flex items-center justify-center text-blue-600 font-bold text-xl">
                   {partner.name
                     .split(" ")
                     .map((word) => word[0])
@@ -73,7 +73,7 @@ const PartnerBrands = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-gradient-to-r from-blue-900 to-blue-800 rounded-3xl p-8 md:p-12 text-white text-center">
+        <div className="bg-linear-to-r from-blue-900 to-blue-800 rounded-3xl p-8 md:p-12 text-white text-center">
           <h3 className="text-2xl md:text-3xl font-bold mb-6">
             Ready to Start Your Journey with NexQore?
           </h3>

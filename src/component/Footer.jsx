@@ -121,19 +121,19 @@ const Footer = () => {
             </h3>
             <ul className="space-y-4">
               <li className="flex items-start">
-                <FaMapMarkerAlt className="text-blue-400 mt-1 mr-3 flex-shrink-0" />
+                <FaMapMarkerAlt className="text-blue-400 mt-1 mr-3 shrink-0" />
                 <span className="text-gray-300">Kathmandu, Nepal</span>
               </li>
               <li className="flex items-center">
-                <FaPhone className="text-blue-400 mr-3 flex-shrink-0" />
+                <FaPhone className="text-blue-400 mr-3 shrink-0" />
                 <span className="text-gray-300">+977 1-1234567</span>
               </li>
               <li className="flex items-center">
-                <FaEnvelope className="text-blue-400 mr-3 flex-shrink-0" />
+                <FaEnvelope className="text-blue-400 mr-3 shrink-0" />
                 <span className="text-gray-300">info@astraeducation.com</span>
               </li>
               <li className="flex items-start">
-                <FaClock className="text-blue-400 mt-1 mr-3 flex-shrink-0" />
+                <FaClock className="text-blue-400 mt-1 mr-3 shrink-0" />
                 <span className="text-gray-300">Sun-Fri: 10AM - 6PM</span>
               </li>
             </ul>
@@ -147,7 +147,7 @@ const Footer = () => {
                 <input
                   type="email"
                   placeholder="Your email"
-                  className="flex-grow px-4 py-2 rounded-l-md text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="grow px-4 py-2 rounded-l-md text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
                 <button className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-r-md transition-colors duration-300">
                   Subscribe

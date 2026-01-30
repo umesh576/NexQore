@@ -5,7 +5,7 @@ import { FaArrowRight, FaPlay } from "react-icons/fa";
 
 const AboutHero = () => {
   return (
-    <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#0a2463] via-[#1e3a8a] to-[#3b82f6]">
+    <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden bg-linear-to-br from-[#0a2463] via-[#1e3a8a] to-[#3b82f6]">
       {/* Animated background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-72 h-72 bg-blue-400/10 rounded-full blur-3xl"></div>

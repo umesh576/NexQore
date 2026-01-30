@@ -74,8 +74,8 @@ const OurApproach = () => {
               className="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow duration-300"
             >
               <div className="flex items-start mb-4">
-                <div className="flex-shrink-0">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-100 to-blue-200 rounded-xl flex items-center justify-center mr-4">
+                <div className="shrink-0">
+                  <div className="w-12 h-12 bg-linear-to-br from-blue-100 to-blue-200 rounded-xl flex items-center justify-center mr-4">
                     {item.icon}
                   </div>
                 </div>
@@ -94,7 +94,7 @@ const OurApproach = () => {
         </div>
 
         {/* Operational Model */}
-        <div className="bg-gradient-to-r from-blue-900 to-blue-800 rounded-3xl p-8 md:p-12 text-white">
+        <div className="bg-linear-to-r from-blue-900 to-blue-800 rounded-3xl p-8 md:p-12 text-white">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-2xl md:text-3xl font-bold mb-6">

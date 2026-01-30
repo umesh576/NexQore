@@ -15,7 +15,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-gradient-to-r from-[#0a2463] to-[#1e3a8a] text-white shadow-lg">
+    <header className="sticky top-0 z-50 bg-linear-to-r from-[#0a2463] to-[#1e3a8a] text-white shadow-lg">
       {/* Top Bar */}
       <div className="border-b border-blue-800 py-2 px-4">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">

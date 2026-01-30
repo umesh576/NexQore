@@ -91,7 +91,7 @@ const LeadershipTeam = () => {
               <div className="p-6">
                 <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-blue-100">
                   {/* Placeholder for image */}
-                  <div className="w-full h-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-4xl font-bold">
+                  <div className="w-full h-full bg-linear-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-4xl font-bold">
                     {leader.name.charAt(0)}
                   </div>
                 </div>
@@ -150,7 +150,7 @@ const LeadershipTeam = () => {
                 <div className="grid md:grid-cols-3 gap-8">
                   <div>
                     <div className="w-48 h-48 mx-auto rounded-full overflow-hidden mb-4">
-                      <div className="w-full h-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-6xl font-bold">
+                      <div className="w-full h-full bg-linear-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-6xl font-bold">
                         {selectedLeader.name.charAt(0)}
                       </div>
                     </div>
