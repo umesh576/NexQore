@@ -1,29 +1,17 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
     { name: "Home", href: "/" },
-    { name: "Study in Nepal", href: "/nepal" },
-    { name: "Study Abroad", href: "/abroad" },
-    { name: "Destinations", href: "/destinations" },
+    { name: "Training", href: "/training" },
     { name: "Services", href: "/services" },
     { name: "About Us", href: "/about" },
-    { name: "Contact", href: "/contact" },
-  ];
-
-  const countries = [
-    { name: "Australia", flag: "🇦🇺" },
-    { name: "UK", flag: "🇬🇧" },
-    { name: "USA", flag: "🇺🇸" },
-    { name: "Korea", flag: "🇰🇷" },
-    { name: "Japan", flag: "🇯🇵" },
-    { name: "Georgia", flag: "🇬🇪" },
-    { name: "Spain", flag: "🇪🇸" },
-    { name: "Germany", flag: "🇩🇪" },
+    { name: "Connect Us", href: "/connection" },
   ];
 
   return (
@@ -39,7 +27,7 @@ const Header = () => {
             </div>
             <div className="flex items-center gap-2">
               <i className="fas fa-envelope text-blue-300"></i>
-              <span>info@astraeducation.com</span>
+              <span>info@nexqore.com</span>
             </div>
             <div className="flex items-center gap-2">
               <i className="fas fa-map-marker-alt text-blue-300"></i>
@@ -51,32 +39,27 @@ const Header = () => {
           <div className="hidden lg:flex items-center gap-2">
             <span className="text-xs text-blue-300 mr-2">We Serve:</span>
             <div className="flex gap-1">
-              {countries.map((country) => (
-                <span
-                  key={country.name}
-                  className="text-lg hover:scale-110 transition-transform cursor-help"
-                  title={`Study in ${country.name}`}
-                >
-                  {country.flag}
-                </span>
-              ))}
+              <p>Skill, Growth, Experiences</p>
             </div>
           </div>
         </div>
       </div>
 
       {/* Main Header */}
-      <div className="container mx-auto px-4 py-4">
+      <div className="container mx-auto  py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-3">
+          <Link href="/" className="flex items-center ">
             <div className="flex flex-col items-center">
-              <div className="text-3xl font-bold tracking-wider text-white">
-                ASTRA
-              </div>
-              <div className="text-xs tracking-[0.3em] text-blue-300 font-semibold mt-1">
-                INTERNATIONAL EDUCATION
-              </div>
+              {/* <div className="text-5xl font-bold tracking-wider text-white">
+                NexQore
+              </div> */}
+              <Image
+                src={"/logo.jpg"}
+                width={200}
+                height={300}
+                alt="logo nexQore"
+              />
             </div>
           </Link>
 

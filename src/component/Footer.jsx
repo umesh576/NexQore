@@ -15,31 +15,21 @@ import {
 const Footer = () => {
   const quickLinks = [
     { name: "Home", href: "/" },
-    { name: "Study in Nepal", href: "/nepal" },
-    { name: "Study Abroad", href: "/abroad" },
+    { name: "Training", href: "/nepal" },
+    { name: "Event", href: "/abroad" },
     { name: "Services", href: "/services" },
     { name: "About Us", href: "/about" },
-    { name: "Contact", href: "/contact" },
+    { name: "Connect Us", href: "/contact" },
   ];
 
   const services = [
-    { name: "University Selection", href: "/services/university-selection" },
-    { name: "Admission Guidance", href: "/services/admission" },
-    { name: "Visa Assistance", href: "/services/visa" },
-    { name: "Scholarship Help", href: "/services/scholarship" },
-    { name: "Documentation", href: "/services/documentation" },
-    { name: "Pre-departure Briefing", href: "/services/pre-departure" },
-  ];
-
-  const destinations = [
-    { name: "Australia", flag: "🇦🇺" },
-    { name: "United Kingdom", flag: "🇬🇧" },
-    { name: "United States", flag: "🇺🇸" },
-    { name: "South Korea", flag: "🇰🇷" },
-    { name: "Japan", flag: "🇯🇵" },
-    { name: "Germany", flag: "🇩🇪" },
-    { name: "Spain", flag: "🇪🇸" },
-    { name: "Georgia", flag: "🇬🇪" },
+    { name: "IT Training", href: "/services/university-selection" },
+    { name: "Professional Development", href: "/services/admission" },
+    { name: "Web Designing", href: "/services/visa" },
+    { name: "App Development", href: "/services/scholarship" },
+    { name: "Graphics Design", href: "/services/documentation" },
+    { name: "Share Marketing", href: "/services/pre-departure" },
+    { name: "Business Development", href: "/services/pre-departure" },
   ];
 
   const socialLinks = [
@@ -164,24 +154,6 @@ const Footer = () => {
                 </button>
               </div>
             </div>
-          </div>
-        </div>
-
-        {/* Destinations Section */}
-        <div className="mt-12 pt-8 border-t border-blue-800">
-          <h3 className="text-center text-xl font-bold mb-6">
-            Study Destinations
-          </h3>
-          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-4">
-            {destinations.map((country) => (
-              <div
-                key={country.name}
-                className="bg-blue-900/50 hover:bg-blue-800 rounded-lg p-3 text-center transition-all duration-300 hover:scale-105 cursor-pointer"
-              >
-                <div className="text-2xl mb-2">{country.flag}</div>
-                <div className="text-sm font-medium">{country.name}</div>
-              </div>
-            ))}
           </div>
         </div>
       </div>
