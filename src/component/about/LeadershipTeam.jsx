@@ -10,14 +10,14 @@ const leadershipData = [
     position: "Founder & CEO",
     image: "/umesh.jpg",
     bio: "Former Senior Architect at Microsoft with 15+ years in tech industry. Passionate about bridging the digital skills gap in Nepal.",
-    education: "MSc Computer Science, Stanford University",
-    experience: "15+ years in Tech Leadership",
+    education: "BSc in Information technology, Purbanchal University",
+    experience: "3+ years in Tech Leadership",
     linkedin: "https://www.linkedin.com/in/umesh-joshi-475b81304/",
     email: "uj19343@gmail.com",
     achievements: [
-      "Featured in Forbes 30 Under 30 Asia",
-      "Speaker at TechCrunch Disrupt",
-      "Author of 'Digital Transformation Handbook'",
+      "Led development of 2+ enterprise corporate platforms",
+      "Multipule Hackathon winner ",
+      "Featured in TechCrunch for innovative training solutions",
     ],
   },
   {
@@ -27,8 +27,8 @@ const leadershipData = [
     bio: "Ex-Google engineer with expertise in AI/ML and scalable systems. Leads our technical curriculum development.",
     education: "PhD AI, MIT",
     experience: "12+ years in AI Research",
-    linkedin: "https://linkedin.com/in/samanthachen",
-    email: "samantha@nexqore.com",
+    linkedin: "https://www.linkedin.com/in/sugam-gurung-8a294235b/",
+    email: "sugamgurung2004@gmail.com",
     achievements: [
       "Published 20+ research papers",
       "Lead Developer of award-winning AI platform",
@@ -83,12 +83,12 @@ const leadershipData = [
   {
     name: "Sushank Chaudhary",
     position: "Senior frontend Developer",
-    image: "/team/head-business.jpg",
+    image: "/Shusank.jpeg",
     bio: "Digital transformation expert helping businesses adopt cutting-edge technologies.",
     education: "MSc Digital Business, LBS",
     experience: "10+ years in Consulting",
-    linkedin: "https://linkedin.com/in/priyakapoor",
-    email: "priya@nexqore.com",
+    linkedin: "https://www.linkedin.com/in/shusank-chaudhary-b2a239331/",
+    email: "chaudharyshusank49@gmail.com",
     achievements: [
       "Led 100+ digital transformation projects",
       "Keynote speaker at Digital Summit Asia",
@@ -189,8 +189,15 @@ const LeadershipTeam = () => {
                 <div className="grid md:grid-cols-3 gap-8">
                   <div>
                     <div className="w-48 h-48 mx-auto rounded-full overflow-hidden mb-4">
-                      <div className="w-full h-full bg-linear-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-6xl font-bold">
-                        {selectedLeader.name.charAt(0)}
+                      <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-blue-100">
+                        <Image
+                          src={selectedLeader.image}
+                          alt={`${selectedLeader.name}'s profile`}
+                          width={128}
+                          height={128}
+                          className="object-cover w-full h-full"
+                          priority={false}
+                        />
                       </div>
                     </div>
                     <div className="flex justify-center space-x-4 mb-6">
