@@ -38,12 +38,12 @@ const leadershipData = [
   {
     name: "Nirajan Chaudhary",
     position: "Managing Director",
-    image: "/team/director.jpg",
+    image: "/nirajan.jpeg",
     bio: "Industry veteran with 20+ years in corporate training. Designed our industry-aligned curriculum.",
     education: "MBA, Harvard Business School",
     experience: "20+ years in Education",
-    linkedin: "https://linkedin.com/in/aaravsharma",
-    email: "aarav@nexqore.com",
+    linkedin: "https://www.linkedin.com/in/nirajan-chaudhary-593b28349/",
+    email: "neerc925@gmail.com",
     achievements: [
       "Trained 5000+ professionals",
       "Consultant for Fortune 500 companies",
