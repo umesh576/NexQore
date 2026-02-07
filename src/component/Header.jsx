@@ -15,18 +15,6 @@ const Header = () => {
     { name: "Connect Us", href: "/connection" },
   ];
 
-  // Add the missing countries array
-  const countries = [
-    { name: "USA", flag: "🇺🇸" },
-    { name: "UK", flag: "🇬🇧" },
-    { name: "CAN", flag: "🇨🇦" },
-    { name: "AUS", flag: "🇦🇺" },
-    { name: "GER", flag: "🇩🇪" },
-    { name: "JPN", flag: "🇯🇵" },
-    { name: "KOR", flag: "🇰🇷" },
-    { name: "SGP", flag: "🇸🇬" },
-  ];
-
   return (
     <header className="sticky top-0 z-50 bg-linear-to-r from-[#0a2463] to-[#1e3a8a] text-white shadow-lg w-full">
       {/* Top Bar - Fixed responsiveness issues */}
@@ -115,26 +103,6 @@ const Header = () => {
                   {item.name}
                 </Link>
               ))}
-
-              {/* Countries Section - Fixed responsive grid */}
-              <div className="pt-4 border-t border-blue-800">
-                <h4 className="text-blue-300 text-sm font-semibold mb-3 text-center sm:text-left">
-                  Study Destinations:
-                </h4>
-                <div className="grid grid-cols-4 sm:grid-cols-8 gap-2">
-                  {countries.map((country) => (
-                    <div
-                      key={country.name}
-                      className="flex flex-col items-center p-2 bg-blue-900 rounded hover:bg-blue-800 cursor-pointer transition-colors duration-200"
-                    >
-                      <span className="text-xl sm:text-2xl">
-                        {country.flag}
-                      </span>
-                      <span className="text-xs mt-1">{country.name}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
 
               {/* Apply Now Button */}
               <button className="mt-4 px-6 py-3 bg-white text-[#0a2463] font-semibold rounded-md hover:bg-blue-100 transition-colors duration-200 w-full">
