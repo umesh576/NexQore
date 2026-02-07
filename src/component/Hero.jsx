@@ -230,7 +230,7 @@ const Hero = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {benefits.map((benefit, index) => (
                   <div key={index} className="flex items-center space-x-3">
-                    <FaCheckCircle className="text-green-400 flex-shrink-0" />
+                    <FaCheckCircle className="text-green-400 shrink-0" />
                     <span className="text-gray-200">{benefit}</span>
                   </div>
                 ))}
@@ -282,7 +282,7 @@ const Hero = () => {
             </div>
 
             {/* Training Categories */}
-            <div className="bg-gradient-to-br from-blue-900/40 to-blue-800/40 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+            <div className="bg-linear-to-br from-blue-900/40 to-blue-800/40 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
               <h3 className="text-xl font-bold text-white mb-6 text-center">
                 Our Training Domains
               </h3>
@@ -314,7 +314,7 @@ const Hero = () => {
             </div>
 
             {/* Featured Programs */}
-            <div className="bg-gradient-to-br from-[#0a2463]/40 to-[#1e3a8a]/40 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+            <div className="bg-linear-to-br from-[#0a2463]/40 to-[#1e3a8a]/40 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
               <h3 className="text-xl font-bold text-white mb-6 text-center">
                 Top Rated Programs
               </h3>
@@ -340,7 +340,7 @@ const Hero = () => {
             </div>
 
             {/* Quick Enrollment Form */}
-            <div className="bg-gradient-to-r from-blue-900/50 to-blue-800/50 backdrop-blur-sm rounded-xl p-5 border border-white/20">
+            <div className="bg-linear-to-r from-blue-900/50 to-blue-800/50 backdrop-blur-sm rounded-xl p-5 border border-white/20">
               <h4 className="text-lg font-bold text-white mb-3">
                 Start Your Training Journey
               </h4>
