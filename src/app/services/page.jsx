@@ -1,13 +1,3 @@
-// app/services/page.jsx
-// import ServicesHero from "@/components/services/ServicesHero";
-// import ServicesCategories from "@/components/services/ServicesCategories";
-// import ITTrainingServices from "@/components/services/ITTrainingServices";
-// import BusinessTrainingServices from "@/components/services/BusinessTrainingServices";
-// import ITCompanyServices from "@/components/services/ITCompanyServices";
-// import WhyChooseUs from "@/components/services/WhyChooseUs";
-// import EnrollmentProcess from "@/components/services/EnrollmentProcess";
-// import ServiceCTA from "@/components/services/ServiceCTA";
-
 import BusinessTrainingServices from "@/component/services/BusinessTrainingServices";
 import EnrollmentProcess from "@/component/services/EnrollmentProcess";
 import ITCompanyServices from "@/component/services/ITCompanyServices";

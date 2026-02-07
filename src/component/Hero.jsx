@@ -407,14 +407,14 @@ const Hero = () => {
       {/* Floating Action Buttons */}
       <div className="fixed bottom-6 left-6 z-20 flex flex-col gap-3">
         <a
-          href="tel:+977123456789"
+          href="tel:+9779849748294"
           className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-full shadow-lg transition-all duration-300 hover:scale-105"
         >
           <span className="text-xl">📞</span>
           <span className="font-semibold">Call Now</span>
         </a>
         <a
-          href="https://wa.me/977123456789"
+          href="https://wa.me/+9779849748294"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center space-x-2 bg-green-600 hover:bg-green-700 text-white px-4 py-3 rounded-full shadow-lg transition-all duration-300 hover:scale-105"
