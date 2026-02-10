@@ -12,35 +12,31 @@ const Contactform = () => {
   } = useForm();
 
   const onSubmit = async (data) => {
-    try {
-      const response = await fetch(
-        "http://localhost:5000/api/contact/addcontact",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(data),
+    console.log(data);
+    const response = await fetch(
+      "http://localhost:5000/api/contact/addcontact",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
         },
-      );
+        body: JSON.stringify(data),
+      },
+    );
 
-      const result = await response.json();
+    const result = await response.json();
 
-      if (!response.ok) {
-        console.log(result.message);
-        alert(result.message || "Something went wrong");
-        return;
-      }
-
-      setShowSuccess(true);
-      reset();
-
-      // Hide success message after 3 seconds
-      setTimeout(() => setShowSuccess(false), 3000);
-    } catch (error) {
-      console.error(error);
-      alert("Server Error. Please try again later.");
+    if (!response.ok) {
+      console.log(result.message);
+      // alert(result.message || "Something went wrong");
+      return;
     }
+
+    setShowSuccess(true);
+    reset();
+
+    // Hide success message after 3 seconds
+    setTimeout(() => setShowSuccess(false), 3000);
   };
 
   return (
@@ -53,7 +49,7 @@ const Contactform = () => {
         </div>
       )}
 
-      <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+      <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 text-black">
         {/* Name */}
         <div className="group">
           <input
